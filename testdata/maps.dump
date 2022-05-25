@@ -1,4 +1,4 @@
-[]interface {}{
+[]any{
   map[string]string{
     "another string": "indeed",
     "hello": "there",

@@ -94,6 +94,7 @@ func (s *dumpState) newlineWithPointerNameComment() {
 
 func (s *dumpState) dumpType(v reflect.Value) {
 	typeName := v.Type().String()
+	typeName = strings.ReplaceAll(typeName, "interface {}", "any")
 	if s.config.StripPackageNames {
 		typeName = packageNameStripperRegexp.ReplaceAllLiteralString(typeName, "")
 	} else if s.homePackageRegexp != nil {

@@ -1,4 +1,4 @@
-[]interface {}{
+[]any{
   litter_test.options{
     Compact: false,
     StripPackageNames: false,

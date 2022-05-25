@@ -1,4 +1,4 @@
-[]interface {}{
+[]any{
   false,
   true,
   7,

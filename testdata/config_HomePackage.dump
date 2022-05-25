@@ -1,4 +1,4 @@
-[]interface {}{
+[]any{
   options{
     Compact: false,
     StripPackageNames: false,

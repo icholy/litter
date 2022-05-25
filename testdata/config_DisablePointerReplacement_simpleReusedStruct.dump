@@ -1,4 +1,4 @@
-[]interface {}{
+[]any{
   &litter_test.BasicStruct{ // p0
     Public: 1,
     private: 2,
