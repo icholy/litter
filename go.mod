@@ -1,4 +1,4 @@
-module github.com/sanity-io/litter
+module github.com/icholy/litter
 
 go 1.16
 
